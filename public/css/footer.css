@@ -7,7 +7,7 @@
 
 .btnIcon {
 
-    color: orange !important;
+    color: red !important;
     box-shadow: 0px 0px 4px 0px black;
     border-radius: 40px;
     width: 40px;
@@ -16,7 +16,7 @@
 .btnIcon:hover {
 
     transform:scale(1.2);
-    color: red !important;
+
 }
 
 .anchorFooter {
