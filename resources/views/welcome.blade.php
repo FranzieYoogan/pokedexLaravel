@@ -21,7 +21,19 @@
         @include('header')
 
 
-        <section>
+        <section class="containerAll">
+
+            @if(isset($results))
+
+            @foreach ($results as $data)
+
+            <h1>{{$data->name}}</h1>
+                
+            @endforeach
+
+      
+
+            @endif
 
 
         </section>

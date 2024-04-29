@@ -26,7 +26,7 @@
 <body>
 
     <!-- Footer -->
-<footer class="" style="position: absolute; bottom: 0; width: 100%">
+<footer class="" style="width: 100%">
     <!-- Grid container -->
    
   
