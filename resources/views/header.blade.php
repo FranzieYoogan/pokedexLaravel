@@ -17,13 +17,13 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/"><img class="navIcon" src="{{asset('/img/icons/pokeball.png')}}" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" onclick="eventClick()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
           
            
-            <form class="formStyle d-flex" role="search">
+            <form class="formStyle d-flex" id="items" role="search">
               <input class="inputHeader form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btnHeader btn btn-outline-success" type="submit">Search</button>
             </form>
@@ -32,6 +32,29 @@
       </nav>
 
 
+      <script>
+    
+        function eventClick() {
+
+     
+
+           click++;
+           console.log(click)
+
+           if(click =1) {
+
+            document.getElementById('items').style.display = 'flex'
+
+           } else {
+
+            click = 0;
+            document.getElementById('items').style.display = 'none'
+
+           }
+
+        }
+        
+      </script>
     
 </body>
 </html>

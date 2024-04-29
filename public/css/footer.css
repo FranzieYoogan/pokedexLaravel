@@ -16,5 +16,17 @@
 .btnIcon:hover {
 
     transform:scale(1.2);
+    color: red !important;
+}
+
+.anchorFooter {
+
+border-bottom: 1px solid red !important;
+    text-decoration: none !important;
+}
+
+.anchorFooter:hover {
+
+    border-bottom: 1px solid transparent !important;
 
 }

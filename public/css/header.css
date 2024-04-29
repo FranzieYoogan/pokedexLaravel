@@ -19,7 +19,7 @@
 
 .inputHeader:hover, .inputHeader:focus, .inputHeader:active {
 
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px red;
     border: 2px solid transparent !important;
 }
 
@@ -32,7 +32,7 @@
 
 .btnHeader:hover {
 
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px red;
     border: 2px solid transparent !important;
     background-color: transparent !important;
 }

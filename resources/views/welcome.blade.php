@@ -26,7 +26,9 @@
 
         </section>
 
-        @include('footer')
+    
 
     </body>
+
 </html>
+@include('footer')
